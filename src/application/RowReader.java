@@ -25,17 +25,7 @@ public class RowReader
 			Type listType = new TypeToken<List<Row>>(){}.getType();
 			Gson gson = new GsonBuilder().create();
 			List<Row> list = gson.fromJson(jsonString, listType);
-//			list.forEach(x -> System.out.println(x));
 			return list;
-		}
-		
-//		for (Row l:list)
-//		{
-//			System.out.println(l);
-//			
-//		}
-		
-		
+		}		
 	}
-
 }
