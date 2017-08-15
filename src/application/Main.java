@@ -138,7 +138,7 @@ public class Main extends Application
         		
         		if (yearFromButton != null)
         		{
-        			int yearFromList = test(yearFromButton);
+        			int yearFromList = chooseYearFromList(yearFromButton);
         			
         			Map<String, Integer> subjectCounter = new HashMap<>();	
 
@@ -206,7 +206,7 @@ public class Main extends Application
         return result;
 	}
 	
-	public int test(String yearFromButton)
+	public int chooseYearFromList(String yearFromButton)
 	{
 		int yearFromList = 0;
 		
